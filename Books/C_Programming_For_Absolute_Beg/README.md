@@ -15,7 +15,7 @@ Michale Vine
 Use stars to form /\ diamond
 \/
 
-7. Create a calendar program using hte current month
+7. Create a calendar program using the current month
    (similiar to the one shown in Figure 1.6)
 
 October 2019
