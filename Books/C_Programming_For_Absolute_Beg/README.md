@@ -6,7 +6,7 @@ Michale Vine
 1.  Study the VIM Quick Guide as described in Appendix B.
 2.  Study the nano Quick Guide as described in Appendix C.
 3.  Create a program that prints your name.
-4.  Create a program the auses escape sequence \ " to print your favorite quote.
+4.  Create a program that uses escape sequence \ " to print your favorite quote.
 5.  Create a program that uses escape sequence \\ to print the following
     directry structure: c:\cygwin\home\administrator
 
