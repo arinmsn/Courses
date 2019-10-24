@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int iPrice = 0;
+    int iQty = 0;
+    int iTotalRevenue;
+    
+    printf("\nEnter a quantity: ");
+    scanf("%i", &iQty);
+    printf("Enter the price: ");
+    scanf("%i", &iPrice);
+    printf("Total revenue: %i", iTotalRevenue = iQty * iPrice);
+    return 0;
+}
