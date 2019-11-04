@@ -17,3 +17,14 @@ The program should congragulate the player if he or she gets the correct answer 
 alert the user of the correct answer in the event the question is answered incorrectly.
 The math quiz program should aslo keep track of how many questions the player has answered
 correctly and incorrectly and display these running totals at the end of the quiz.
+
+5.  Modify the Concentration Game to use a main menu. The menu should alow the user to 
+select a level of difficulty and/or quit the game (a sample menu is shown below). The level
+of difficulty could be determined by how many seconds the player has to concentrate. Each
+time the user completes a single game of Concentration, the menu should reappear allowing the 
+user to continue at the same level, at a new level, or simply quit the game.
+
+1 Easy (remember 3 numbers in 5 seconds)
+2 Intermedaite (remember 5 numbers in 5 seconds)
+3 Difficult (remember 5 numbers in 2 seconds)
+4 Quit
