@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-float fgetRemainder(int, int);
-float fMaxNumber(int, int);
+int iGetRemainder(int, int);
+int iGetMaxNumber(int, int);
 void printMenu(void);
 
 int main()
@@ -15,7 +15,7 @@ int main()
     int iMaxNum = 0;
     
     do {
-        printf("Make a selection");
+        printf("\nMake a selection\n");
         printf("\n\n1. Show ATM menu\n\n2. Find remainder of two numbers\n\n3. Choose the largest number of two numbers\n\n4. Exit!\n\n");
         scanf("%d", &iSelect);
         
@@ -39,5 +39,48 @@ int main()
                 iMaxNum = fMaxNumber(iNumerator, iDenominator);
                 printf("\nThe largest number you entered is %d ", iMaxNum);
                 break;
+        }
     } while (iSelect !=4); //end of do/while
 }//end of main()
+
+
+/*****************************
+ Function Definition
+ iGetRemainder
+*****************************/
+
+int iGetRemainder(int iNumerator, int iDenominator)
+{
+    return (iNumerator % iDenominator);
+}
+
+/*****************************
+ Function Definition
+ iGetMaxNumber
+*****************************/
+
+int iGetMaxNumber(int iNumOne, int iNumTwo)
+{
+    if(iNumOne < iNumTwo)
+        return iNumTwo;
+    else if(iNumOne > iNumTwo)
+        return iNumOne;
+    else if(iNumOne == iNumTwo){
+        printf("Both numbers are equal!");
+        return iNumOne;
+    }
+}
+
+/*****************************
+ Function Definition
+ printMenu
+*****************************/
+
+void printMenu(void){
+    printf("\n--------------- ATM ---------------");
+    printf("\n");
+    printf("\n");
+    printf("\n      Gringotts Wizarding Bank ");
+    printf("\n");
+    printf("     Please, insert your debit card");
+}
