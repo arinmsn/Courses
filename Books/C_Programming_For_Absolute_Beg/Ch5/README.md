@@ -8,3 +8,8 @@
 2.  Build the function definitions for each preceding function prototype.
 
 3.  Add your own trivia categories to the Trivia game.
+
+4. Modify the Trivia game to track the number of times a user gets an answer correct
+and incorrect. When the user quits the program, display the number of correct and 
+incorrect answers. Consider using global variables to track the number of questions
+answered, the number answered correctly, and the number answered incorrectly.
