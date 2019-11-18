@@ -31,3 +31,36 @@ main() {
                 printf("5\tQuit\n");
                 printf("\n\nEnter your selection: ");
                 scanf("%d", &giResponse);
+                
+                switch(giResponse) {
+                    case 1:
+                        if (sportsQuestion() == 4)
+                            printf("\nCorrect!\n");
+                        else
+                            printf("\nIncorrect\n");
+                            pause(2);
+                            break;
+                    case 2:
+                        if (geographyQuestion() == 2)
+                            printf("\nCorrect!\n");
+                        else 
+                            printf("\nIncorrect!\n");
+                            pause(2);
+                            break;
+                    case 3:
+                        if (moviesQuestionQuestion() == 3)
+                            printf("\nCorrect!\n");
+                        else 
+                            printf("\nIncorrect!\n");
+                            pause(2);
+                            break;
+                    case 4:
+                        if (mathQuestion() == 4)
+                            printf("\nCorrect!\n");
+                        else 
+                            printf("\nIncorrect!\n");
+                            pause(2);
+                            break;
+                } //end of switch
+        } while (giResponse != 5);
+} // end of main()
