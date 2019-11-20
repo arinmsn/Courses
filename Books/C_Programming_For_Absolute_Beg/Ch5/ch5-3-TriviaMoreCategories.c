@@ -37,7 +37,7 @@ main() {
                         if (sportsQuestion() == 4)
                             printf("\nCorrect!\n");
                         else
-                            printf("\nIncorrect\n");
+                            printf("\nIncorrect!\n");
                             pause(2);
                             break;
                     case 2:
@@ -48,7 +48,7 @@ main() {
                             pause(2);
                             break;
                     case 3:
-                        if (moviesQuestionQuestion() == 3)
+                        if (moviesQuestion() == 3)
                             printf("\nCorrect!\n");
                         else 
                             printf("\nIncorrect!\n");
