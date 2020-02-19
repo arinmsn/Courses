@@ -1,3 +1,5 @@
+// Time complexity: O(N); Space Complexity: O(1)
+
 function maxSumSubArray(k, arr) {
   let [maxSum, windowSum, windwoStart] = [0, 0, 0];
   for (windowEnd = 0; windowEnd < arr.length; windowEnd++) {
