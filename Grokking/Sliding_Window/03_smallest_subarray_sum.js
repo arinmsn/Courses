@@ -28,4 +28,4 @@ const smallest_subarray_with_given_sum = function(s, arr) {
   return minLength;
 };
 
-module.exports = { smallest_subarray_with_given_sum };
+export default { smallest_subarray_with_given_sum };
