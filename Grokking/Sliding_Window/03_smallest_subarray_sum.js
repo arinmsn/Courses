@@ -11,7 +11,8 @@ is greater than or equal to ‘S’. Return 0, if no such subarray exists.
 */
 
 const smallest_subarray_with_given_sum = function(s, arr) {
-  let [windowSum, minLength, windowStart] = [0, Infinity, 0];
+  let [windowSum, windowStart] = [0, 0];
+  let minLength = Infinity;
   for (windowEnd = 0; windowEnd < arr.length; windowEnd++) {
     windowSum += arr[windowEnd]; // add next element
     while (windowSum >= s) {
@@ -28,4 +29,4 @@ const smallest_subarray_with_given_sum = function(s, arr) {
   return minLength;
 };
 
-export default { smallest_subarray_with_given_sum };
+exports.smallest_subarray_with_given_sum = smallest_subarray_with_given_sum;
