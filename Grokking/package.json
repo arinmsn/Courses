@@ -11,5 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^25.1.0"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "node_modules"
+    ]
+  },
+  "dependencies": {
+    "jest-cli": "^25.1.0"
   }
 }

@@ -27,4 +27,4 @@ const longest_substring_with_k_distinct = function(str, k) {
   return maxLength;
 };
 
-module.exports = longest_substring_with_k_distinct;
+module.exports = { longest_substring_with_k_distinct };
