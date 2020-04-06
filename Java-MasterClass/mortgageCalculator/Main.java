@@ -9,10 +9,28 @@ public class Main {
         int principal = (int) readNumber("Principal: ", 1000, 1_000_000);
         float annualInterest = (float)readNumber("Annaul Interest Rate: ", 1, 30);
         byte years = (byte)readNumber("Period (Years): ", 1, 30);
-        
+
+        printMortgage(principal, annualInterest, years);
+        printPaymentSchedule(principal, annualInterest, years);
+    }
+
+    private static void printMortgage(int principal, float annualInterest, byte years) {
         double mortgage = calculateMortgage(principal, annualInterest, years);
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
-        System.out.println("Your mortgage will be " + mortgageFormatted);
+        System.out.println();
+        System.out.println("Mortgage");
+        System.out.println("--------");
+        System.out.println("Monthly Payments" + mortgageFormatted);
+    }
+
+    private static void printPaymentSchedule(int principal, float annualInterest, byte years) {
+        System.out.println();
+        System.out.println("Payment Schedule");
+        System.out.println("----------------");
+        for (short month = 1; month <= years * MONTHS_IN_YEAR; month++){
+            double balance = calculateBalance(principal, annualInterest, years, month);
+            System.out.println("NumberFormat.getCurrencyInstance().format(balance)");
+        }
     }
 
     public static double readNumber(String prompt, double min, double max){
