@@ -2,6 +2,9 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Main {
+    final static byte MONTHS_IN_YEAR = 12;
+    final static byte PERCENT = 100;
+
     private static void main(String[] args) {
         int principal = (int) readNumber("Principal: ", 1000, 1_000_000);
         float annualInterest = (float)readNumber("Annaul Interest Rate: ", 1, 30);
@@ -27,9 +30,22 @@ public class Main {
         return value;
     }
 
+    public static double calculateBalance(int principal, float annualInterest, byte years,
+                                                short numberOfPaymentsMade
+    ){
+        
+        float monthlyInterest = (annualInterst / PERCENT / MONTHS_IN_YEAR);
+        short numberOfPayments = (short)(year * MONTHS_IN_YEAR); 
+
+        double balance = principal
+            * (Math.pow(1 + monthlyInterest, numberOfPayments) - Math.pow(1 + monthlyInterst, numberOfPaymentsMade)) 
+            / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
+
+        return balance;
+    }
+
     public static double calculateMortgage(int principal, float annualInterest, byte years) {
-        final byte MONTHS_IN_YEAR = 12;
-        final byte PERCENT = 100;
+        
         float monthlyInterest = (annualInterst / PERCENT / MONTHS_IN_YEAR);
         short numberOfPayments = (short)(year * MONTHS_IN_YEAR);
         double mortgage = principal * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
