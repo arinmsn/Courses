@@ -53,7 +53,6 @@ public class BankAccount {
         return this.customerName;
     }
 
-    //email address
     public void setEmailAddress(String emailAddress){
         this.emailAddress = emailAddress;
     }

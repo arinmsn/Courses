@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="461b6212-1320-48bb-a233-9c4f59f7315c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZjYaTzWXyBYAsNSYDiqBaFU3vT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.arin.KeywordsAndExpressions.Main" />
+      <module name="KeywordsAndExpressions_sectcion4" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="461b6212-1320-48bb-a233-9c4f59f7315c" name="Default Changelist" comment="" />
+      <created>1585354034021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585354034021</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1397" height="276" key="GridCell.Tab.0.bottom" timestamp="1585366398855">
+      <screen x="-1440" y="0" width="1440" height="850" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.0.bottom/-1440.0.1440.850/0.0.1536.824@-1440.0.1440.850" timestamp="1585366398855" />
+    <state width="1397" height="276" key="GridCell.Tab.0.center" timestamp="1585366398855">
+      <screen x="-1440" y="0" width="1440" height="850" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.0.center/-1440.0.1440.850/0.0.1536.824@-1440.0.1440.850" timestamp="1585366398855" />
+    <state width="1397" height="276" key="GridCell.Tab.0.left" timestamp="1585366398855">
+      <screen x="-1440" y="0" width="1440" height="850" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.0.left/-1440.0.1440.850/0.0.1536.824@-1440.0.1440.850" timestamp="1585366398855" />
+    <state width="1397" height="276" key="GridCell.Tab.0.right" timestamp="1585366398855">
+      <screen x="-1440" y="0" width="1440" height="850" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.0.right/-1440.0.1440.850/0.0.1536.824@-1440.0.1440.850" timestamp="1585366398855" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1585366398856">
+      <screen x="-1440" y="0" width="1440" height="850" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom/-1440.0.1440.850/0.0.1536.824@-1440.0.1440.850" timestamp="1585366398856" />
+    <state width="1397" height="276" key="GridCell.Tab.1.center" timestamp="1585366398856">
+      <screen x="-1440" y="0" width="1440" height="850" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.center/-1440.0.1440.850/0.0.1536.824@-1440.0.1440.850" timestamp="1585366398856" />
+    <state width="1397" height="276" key="GridCell.Tab.1.left" timestamp="1585366398856">
+      <screen x="-1440" y="0" width="1440" height="850" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.left/-1440.0.1440.850/0.0.1536.824@-1440.0.1440.850" timestamp="1585366398856" />
+    <state width="1397" height="276" key="GridCell.Tab.1.right" timestamp="1585366398856">
+      <screen x="-1440" y="0" width="1440" height="850" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.right/-1440.0.1440.850/0.0.1536.824@-1440.0.1440.850" timestamp="1585366398856" />
+    <state x="-1012" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1585400363791">
+      <screen x="-1440" y="0" width="1440" height="850" />
+    </state>
+    <state x="-1012" y="257" key="com.intellij.ide.util.TipDialog/-1440.0.1440.850/0.0.1536.824@-1440.0.1440.850" timestamp="1585400363791" />
+  </component>
+</project>

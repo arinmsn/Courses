@@ -1,0 +1,11 @@
+# Default ignored files
+/workspace.xml
+/description.html
+/encodings.xml
+/../CalcEngine.iml
+/misc.xml
+/modules.xml
+/project-template.xml
+/vcs.xml
+*.iml
+
