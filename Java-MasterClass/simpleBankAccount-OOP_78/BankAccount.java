@@ -5,6 +5,20 @@ public class BankAccount {
     private String emailAddress;
     private long phoneNumber;
 
+    public BankAccount() {
+        this(567988, 500.20, "Firstname Lastname",
+                "email@address.com", 88820202);
+    }
+
+    public BankAccount(int accountNumber, double balance, String customerName, String emailAddress, long phoneNumber){
+        System.out.println("Account constructor with parameters called.");
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.emailAddress = emailAddress;
+        this.phoneNumber = phoneNumber;
+    }
+    
     public void setNumber(int accountNumber){
         this.accountNumber = accountNumber;
     }
