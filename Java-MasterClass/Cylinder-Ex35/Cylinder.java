@@ -3,11 +3,12 @@ public class Cylinder extends Circle {
 
     public Cylinder(double radius, double height){
         super(radius);
+        this.height = height;
+
         if (this.height < 0){
             this.height = 0;
-        } else {
-            this.height = height;
-        }
+        } 
+
     }
 
     public double getHeight(){
